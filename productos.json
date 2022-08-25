@@ -1,0 +1,84 @@
+[
+ {
+        "id": "1",
+     	"name": "iPhone X",
+     	"price": "1000",
+     	"description": "iPhone X is a line of smartphones designed and marketed by Apple Inc. It was unveiled at Apple's WWDC event on May 17, 2017, and was released worldwide on September 22, 2017. The iPhone X was Apple's tenth iPhone, succeeding the iPhone 8 and iPhone 8 Plus, and was the first device to support the iPhone Xs new OLED screen. The iPhone Xs screen is 6.1-inch Liquid Retina display with a resolution of 1125 x 2436 pixels at 458 ppi.", 
+       " image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTerhnp3s1hzGfGkjsTLwE7f33kHEQMP5W8Yg&usqp=CAU.jpg"
+ }
+    ,
+    {
+            "id": "2",
+        	"name": "iPhone 8",
+        	"price": "800",
+        	"description": "iPhone 8 is a line of smartphones designed and marketed by Apple Inc. It was unveiled at Apple's WWDC event on May 17, 2017, and was released worldwide on September 22, 2017. The iPhone 8 was Apple's ninth iPhone, succeeding the iPhone 7 and iPhone 7 Plus, and was the first device to support the iPhone Xs new OLED screen. The iPhone 8s screen is 4.7-inch Liquid Retina display with a resolution of 750 x 1334 pixels at 326 ppi.", 
+        " image": "https://www.apple.com/v/home/am/images/models/iphone-8/iphone-8-body_2x.png"
+    }
+    ,
+    {
+            "id": "3",
+        	"name": "iPhone 7",
+        	"price": "600",
+        	"description": "iPhone 7 is a line of smartphones designed and marketed by Apple Inc. It was unveiled at Apple's WWDC event on May 17, 2017, and was released worldwide on September 22, 2017. The iPhone 7 was Apple's eighth iPhone, succeeding the iPhone 6S and iPhone 6S Plus, and was the first device to support the iPhone Xs new OLED screen. The iPhone 7s screen is 4.7-inch Liquid Retina display with a resolution of 750 x 1334 pixels at 326 ppi.", 
+        " image": "https://www.apple.com/v/home/am/images/models/iphone-7/iphone-7-body_2x.png"
+    }
+    ,
+    {
+            "id": "4",
+        	"name": "iPhone 6S",
+        	"price": "500",
+        	"description": "iPhone 6S is a line of smartphones designed and marketed by Apple Inc. It was unveiled at Apple's WWDC event on May 17, 2017, and was released worldwide on September 22, 2017. The iPhone 6S was Apple's ninth iPhone, succeeding the iPhone 6 and iPhone 6 Plus, and was the first device to support the iPhone Xs new OLED screen. The iPhone 6s screen is 4.7-inch Liquid Retina display with a resolution of 750 x 1334 pixels at 326 ppi.", 
+        " image": "https://www.apple.com/v/home/am/images/models/iphone-6s/iphone-6s-body_2x.png"
+    }
+    ,
+    {
+            "id": "5",
+        	"name": "iPhone 6",
+        	"price": "400",
+        	"description": "iPhone 6 is a line of smartphones designed and marketed by Apple Inc. It was unveiled at Apple's WWDC event on May 17, 2017, and was released worldwide on September 22, 2017. The iPhone 6 was Apple's tenth iPhone, succeeding the iPhone 5S and iPhone 5S Plus, and was the first device to support the iPhone Xs new OLED screen. The iPhone 6s screen is 4.7-inch Liquid Retina display with a resolution of 750 x 1334 pixels at 326 ppi.", 
+        " image": "https://www.apple.com/v/home/am/images/models/iphone-6/iphone-6-body_2x.png"
+    }
+    ,
+    {
+            "id": "6",
+        	"name": "iPhone 5S",
+        	"price": "300",
+        	"description": "iPhone 5S is a line of smartphones designed and marketed by Apple Inc. It was unveiled at Apple's WWDC event on May 17, 2017, and was released worldwide on September 22, 2017. The iPhone 5S was Apple's tenth iPhone, succeeding the iPhone 5 and iPhone 5C, and was the first device to support the iPhone Xs new OLED screen. The iPhone 5s screen is 4.7-inch Liquid Retina display with a resolution of 750 x 1334 pixels at 326 ppi.", 
+        " image": "https://www.apple.com/v/home/am/images/models/iphone-5s/iphone-5s-body_2x.png"
+    }
+    ,
+    {
+            "id": "7",
+        	"name": "iPhone 5",
+        	"price": "200",
+        	"description": "iPhone 5 is a line of smartphones designed and marketed by Apple Inc. It was unveiled at Apple's WWDC event on May 17, 2017, and was released worldwide on September 22, 2017. The iPhone 5 was Apple's eleventh iPhone, succeeding the iPhone 4S and iPhone 4S Plus, and was the first device to support the iPhone Xs new OLED screen. The iPhone 5s screen is 4.7-inch Liquid Retina display with a resolution of 750 x 1334 pixels at 326 ppi.", 
+        " image": "https://www.apple.com/v/home/am/images/models/iphone-5/iphone-5-body_2x.png"
+    }
+    ,
+    {
+            "id": "8",
+        	"name": "iPhone 4S",
+        	"price": "100",
+        	"description": "iPhone 4S is a line of smartphones designed and marketed by Apple Inc. It was unveiled at Apple's WWDC event on May 17, 2017, and was released worldwide on September 22, 2017. The iPhone 4S was Apple's eleventh iPhone, succeeding the iPhone 4 and iPhone 4S Plus, and was the first device to support the iPhone Xs new OLED screen. The iPhone 4s screen is 4.7-inch Liquid Retina display with a resolution of 750 x 1334 pixels at 326 ppi.", 
+        " image": "https://www.apple.com/v/home/am/images/models/iphone-4s/iphone-4s-body_2x.png"
+    }
+    ,
+    {
+            "id": "9",
+        	"name": "iPhone 4",
+        	"price": "50",
+        	"description": "iPhone 4 is a line of smartphones designed and marketed by Apple Inc. It was unveiled at Apple's WWDC event on May 17, 2017, and was released worldwide on September 22, 2017. The iPhone 4 was Apple's eleventh iPhone, succeeding the iPhone 3GS and iPhone 3GS Plus, and was the first device to support the iPhone Xs new OLED screen. The iPhone 4s screen is 4.7-inch Liquid Retina display with a resolution of 750 x 1334 pixels at 326 ppi.", 
+        " image": "https://www.apple.com/v/home/am/images/models/iphone-4/iphone-4-body_2x.png"
+
+    }
+    ,
+    {
+            "id": "10",
+        	"name": "iPhone 3GS",
+        	"price": "50",
+        	"description": "iPhone 3GS is a line of smartphones designed and marketed by Apple Inc. It was unveiled at Apple's WWDC event on May 17, 2017, and was released worldwide on September 22, 2017. The iPhone 3GS was Apple's eleventh iPhone, succeeding the iPhone 3G and iPhone 3G Plus, and was the first device to support the iPhone Xs new OLED screen. The iPhone 3gs screen is 4.7-inch Liquid Retina display with a resolution of 750 x 1334 pixels at 326 ppi.", 
+        " image": "https://www.apple.com/v/home/am/images/models/iphone-3gs/iphone-3gs-body_2x.png"
+    }
+    
+
+]

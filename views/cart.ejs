@@ -1,0 +1,33 @@
+<script src="main.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<h2 style="color:crimson;">Todos los productos</h2>
+<script src="/socket.io/socket.io.js"></script>
+
+<% if(productos.length > 0){ %>
+    <p>Productos añadidos al cart</p>
+    <button class="btn btn-danger" href="/">volver al home</button>
+    <div id="borrarProducto" class="table-responsive">
+        <table class="table table-dark">
+            //timestamp, nombre, precio, cantidad, subtotal
+            <% for (const producto of productos) {%>
+            <tr>
+                <td><%-producto.name%></td>
+                <td><%-producto.price%></td>
+                <td><%-producto.description%></td>
+                <td> <img src="%-producto[i].image%>" alt="" width="100%"> </td>
+                <td>
+
+            
+                 <input type="submit" value="borrar">
+                </td>
+
+            </tr>
+            <%};%>
+        </table>
+    </div>
+<% } else{ %>
+    <h3 class="alert alert-danger">no se encontraron datos</h1>
+<% } %>
+
+
+
