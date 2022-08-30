@@ -7,7 +7,6 @@ const httpServer = new HttpServer(app)
 const io = new IOServer(httpServer)
 const router = require("./routes/routes.js");
 const rutas = require("./routes/session.js");
- 
 const { options } = require("./options/mariaDB");
 // const knex = require("knex")(options);
 // const Productos = require('./controllers/index.js');
