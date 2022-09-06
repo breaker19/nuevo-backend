@@ -3,7 +3,6 @@ const { fork } = require("child_process");
 const app = express();
 
 let visitas = 0;
-
 app.get("/", function (req, res) {
   visitas++;
   res.json({ visitas });
@@ -23,9 +22,11 @@ app.get("/calculo-nobloq", function (req, res) {
 });
 
 function sumar() {
-  let suma = 0;
-  for (let i = 0; i < 5e9; i++) {
-    suma += i;
-  }
-  return suma;
+  let num1 = Math.floor(Math.random() * 1000000);
+  console.log(`Suma de ${num1} `);
+  return num1;
 }
+sumar()
+
+
+
