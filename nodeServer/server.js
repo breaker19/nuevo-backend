@@ -14,7 +14,7 @@ const app = express();
 
 //app.use(express.static('public'))
 
-const PORT = parseInt(process.argv[2]) || 3004;
+const PORT = parseInt(process.argv[2]) || 8080;
 
 app.get("/datos", (req, res) => {
   console.log(`port: ${PORT} -> Fyh: ${Date.now()}`);

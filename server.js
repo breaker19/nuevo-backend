@@ -21,6 +21,9 @@ const cartSchema = require('./cart.js');
 const { log } = require("console");
 const  passport  = require("passport");
 const   loginRouter  = require("./login.js");
+const winston = require("winston");
+
+
 require ("./middlewares/google.js");
 app.set("view engine", "ejs");
 app.use(express.json());
@@ -28,6 +31,19 @@ app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true }));
 app.use("/", rutas);
 app.use("/api", router);
+
+
+const loggerWarn = winston.createLogger({
+
+  level: "warn", 
+  transports: [
+    new winston.transports.Console({ level: "verbose" }),
+    new winston.transports.File({ filename: "warn.log", level: "warn" }),
+    new winston.transports.File({ filename: "error.log", level: "error" }),
+  ],
+});
+loggerWarn.warn();
+loggerWarn.error();
 
 
 
