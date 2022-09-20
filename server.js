@@ -28,10 +28,6 @@ app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true }));
 app.use("/", rutas);
 app.use("/api", router);
-
-
-
-
 try {
   cartSchema
   console.log('Cart Schema creado');
