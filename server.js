@@ -16,6 +16,7 @@ const { options } = require("./options/mariaDB");
 // const {selectCards} = require('./Tables/selectCards.js');
 // const {insertCards} = require('./Tables/insertCards.js');
 const pruebaLogin = require('./login.js');
+const twilio = require('./twilio.js');
 // const CRUD = require('./firebase.js');
 const cartSchema = require('./cart.js');
 const { log } = require("console");
@@ -36,6 +37,8 @@ try {
   
 }
 try {pruebaLogin;}
+catch (error) {console.log(error);}
+try {twilio;}
 catch (error) {console.log(error);}
 
 // try {
