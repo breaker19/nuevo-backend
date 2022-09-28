@@ -6,8 +6,8 @@ const path = require("path");
 const app = express();
 const twilio = require('twilio');
 
-const accountSid = 'ACaff6db7044ba385a30a0925eba462274'
-const authToken = '817ffc5ff4611f791cec0885a9027143'
+const accountSid = 'xxxxxxxxxxxxx'
+const authToken = 'xxxxxxxxxxxxxx'
 
 const client = twilio(accountSid, authToken)
 app.set("views", path.join(path.dirname(""), "./views"));
