@@ -16,6 +16,7 @@ class ProductDAO
     getId()
     {
         return this.id;
+        
     }
     getNombre()
     {
@@ -33,6 +34,7 @@ class ProductDAO
     {
         return this.image;
     }
+
 
 }
 module.exports = ProductDAO;

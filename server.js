@@ -6,7 +6,7 @@ const app = express();
 const httpServer = new HttpServer(app)
 const io = new IOServer(httpServer)
 const router = require("./routes/routes.js");
-const rutas = require("./routes/session.js");
+// const rutas = require("./routes/session.js");
 const { options } = require("./options/mariaDB");
 // const knex = require("knex")(options);
 // const Productos = require('./controllers/index.js');
@@ -16,7 +16,7 @@ const { options } = require("./options/mariaDB");
 // const {selectCards} = require('./Tables/selectCards.js');
 // const {insertCards} = require('./Tables/insertCards.js');
 const pruebaLogin = require('./login.js');
-const twilio = require('./twilio.js');
+// const twilio = require('./twilio.js');
 // const CRUD = require('./firebase.js');
 const cartSchema = require('./cart.js');
 const { log } = require("console");
@@ -27,7 +27,7 @@ app.set("view engine", "ejs");
 app.use(express.json());
 app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true }));
-app.use("/", rutas);
+// app.use("/", rutas);
 app.use("/api", router);
 try {
   cartSchema
@@ -38,8 +38,8 @@ try {
 }
 try {pruebaLogin;}
 catch (error) {console.log(error);}
-try {twilio;}
-catch (error) {console.log(error);}
+
+
 
 // try {
 //   createTable();
